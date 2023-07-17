@@ -1,0 +1,31 @@
+.logOutBtn {
+  border-radius: 4px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.logOutBtn:hover,
+.logOutBtn:focus {
+  background-color: rgb(233, 5, 5);
+  color: #fff;
+  transform: scale(1.1);
+  transition: all 250ms;
+}
+
+.userMenuContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.userName {
+  font-size: 20px;
+  font-weight: 600;
+  color: green;
+}
+.welcome {
+  font-size: 20px;
+  font-weight: 600;
+}

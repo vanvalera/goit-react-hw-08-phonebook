@@ -1,0 +1,30 @@
+.home {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 30px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.home:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: blue;
+  animation: runningLine 3s linear infinite;
+}
+@keyframes runningLine {
+  0% {
+    transform: translateX(-25%);
+  }
+  50% {
+    transform: translateX(25%);
+  }
+  100% {
+    transform: translateX(-25%);
+  }
+}
